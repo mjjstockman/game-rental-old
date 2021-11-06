@@ -30,11 +30,13 @@ def choose_action():
     which must be an integer between 1 and 5.
     The loop will repeatedly request data, until it is valid.
     """
-    print("Do you want to:\n 1) Make a sale.\n 2) Return a sale.\n 3) Check stock?\n 4) Add a new customer.\n 5) Add a new title.\n")
+    print("Do you want to:\n 1) Make a sale.\n 2) Return a sale.\n "
+          "3) Check stock.\n 4) Add a new customer.\n 5) Add a new title.\n")
     # print("Please select from above by entering the corresponding number.")
 
-    chosen_action = input("Please select from above by entering the corresponding number: ")
-    print(chosen_action)
+    chosen_action = input("Please select from above by entering the "
+                          " corresponding number: ")
+    # print(chosen_action)
 
 
 choose_action()
